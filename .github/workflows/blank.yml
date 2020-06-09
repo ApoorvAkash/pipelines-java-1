@@ -33,4 +33,4 @@ jobs:
         echo test, and deploy your project.
         echo ${{ github.ref }}
         git rev-parse --abbrev-ref HEAD
-        git rev-parse --short HEAD
+        bash test.sh
